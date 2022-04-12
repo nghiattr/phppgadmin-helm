@@ -1,0 +1,29 @@
+
+image: dockage/phppgadmin:latest
+imagePullPolicy: Always
+port: 80
+phppgadmin:
+  serverHost: postgresql-server-nghiattr.postgres.database.azure.com
+  serverPort: 5432
+  serverDesc: PostgreSQL
+  serverSslMode: disable
+  serverDefaultDb: postgres
+  serverPgDumpPath: /usr/bin/pg_dump
+  serverPgDumpAllPath: /usr/bin/pg_dumpall
+  defaultLang: auto
+  autoComplete: default on
+  extraLoginSecurity: false
+  ownedOnly: false
+  showComments: true
+  showAdvanced: false
+  showSystem: false
+  minPasswordLength: 1
+  leftWidth: 200
+  theme: default
+  showOids: false
+  maxRows: 30
+  maxChars: 50
+  userXhtlmStrict: false
+  helpBase: http://www.postgresql.org/docs/%s/interactive/
+  ajaxRefresh: 3
+

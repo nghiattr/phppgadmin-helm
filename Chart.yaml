@@ -1,0 +1,6 @@
+apiVersion: v2
+name: phppg-demo
+description: demo phppgadmin helm
+type: application
+version: 0.1.0
+appVersion: "latest"
